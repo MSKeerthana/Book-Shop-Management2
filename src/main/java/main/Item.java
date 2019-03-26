@@ -1,10 +1,10 @@
 package main;
 public class Item{
     public String itemName;
-    public int mrp;
+    public int Mrp;
     public  void addItem(String itemName,int mrpItem){
         this.itemName=itemName;
-        this.mrp=mrpItem;
+        this.Mrp=mrpItem;
 
     }
 	public String getItemName() {
@@ -14,10 +14,11 @@ public class Item{
 		this.itemName = itemName;
 	}
 	public int getMrp() {
-		return mrp;
+		return Mrp;
 	}
 	public void setMrp(int mrp) {
-		this.mrp = mrp;
+		this.Mrp = mrp;
+		//System.out.println(Mrp);
 	}
     
 }
